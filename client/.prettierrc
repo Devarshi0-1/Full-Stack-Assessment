@@ -1,0 +1,16 @@
+{
+    "semi": true,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": ["*.jsx"],
+            "options": {
+                "semi": false,
+                "jsxSingleQuote": true,
+                "bracketSameLine": true
+            }
+        }
+    ],
+    "plugins": ["prettier-plugin-tailwindcss"]
+}
