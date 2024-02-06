@@ -6,8 +6,6 @@ import { httpCode, sendCookie } from '../utils/features.js'
 export const login = async (req, res, next) => {
     try {
         const { username, password } = req.body
-        console.log(username, password)
-
         const user = await User.findOne({ username }).select('+password')
 
         if (!user)

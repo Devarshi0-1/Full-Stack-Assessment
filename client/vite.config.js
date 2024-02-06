@@ -19,5 +19,3 @@ export default defineConfig({
         open: true,
     },
 });
-
-process.env.BROWSER = 'firefox';

@@ -53,7 +53,6 @@ const Register = () => {
                     withCredentials: true,
                 },
             )
-            console.log(data)
             setLoading(false)
             setIsAuthenticated(true)
             setUser(data)
